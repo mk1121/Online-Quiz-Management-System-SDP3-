@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jmx.export.annotation.ManagedAttribute;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -19,7 +18,6 @@ import org.springframework.web.servlet.ModelAndView;
 import com.klef.jfsd.springboot.model.Admin;
 import com.klef.jfsd.springboot.model.Employee;
 import com.klef.jfsd.springboot.model.Feedback;
-import com.klef.jfsd.springboot.model.User;
 import com.klef.jfsd.springboot.service.AdminService;
 import com.klef.jfsd.springboot.service.EmployeeService;
 import com.klef.jfsd.springboot.service.FeedbackService;
